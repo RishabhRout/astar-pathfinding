@@ -54,13 +54,10 @@ def astar(start_point, goal_point, map):
 
             if adjacent_node in closed_list:
                 continue
-            if map[adjacent_point[0]][adjacent_point[1]] == 'x':
+            if map[adjacent_point[0]][adjacent_point[1]] == 1:
                 continue
 
-            adjacent_node.g = current_node.g + int(
-                map[adjacent_point[0]][adjacent_point[1]]
-            )
-            # adjacent_node.g = current_node.g + 1
+            adjacent_node.g = current_node.g + 1
 
             adjacent_node.h = adjacent_node.h_cost(goal_point)
             adjacent_node.f = adjacent_node.g + adjacent_node.h
