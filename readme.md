@@ -24,6 +24,12 @@ This project implements the A* pathfinding algorithm, a popular pathfinding algo
    python main.py
    ```
 
+## Assumptions and modifications
+
+The original question suggested to use a map with only 0 & 1. However the question has been modified to give better view of the A* algorithm and my skill set for this implementation. I have created a set of new params where, integers like `0, 1, 2` are plain values ( weight of that node ) and `'x'` is used as an obstacle denotion.
+
+You can find the extra implementation in the other branch here: 
+
 ## Example Usage
 
 You can use the A* pathfinding algorithm to find a path from a start point to a goal point on a map. Here's how to use it:
@@ -71,6 +77,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - The A* pathfinding algorithm is a classic algorithm widely used in computer science and AI.
-- Special thanks to the open-source community for providing valuable resources and libraries for pathfinding algorithms.
 
 Feel free to contribute to this project, report issues, or suggest improvements. Happy pathfinding!
