@@ -62,6 +62,11 @@ if path:
 print('\n'.join([' '.join([str(cell) for cell in row]) for row in map]))
 ```
 
+## Example Screenshot
+
+![image](https://github.com/RishabhRout/astar-pathfinding/assets/91580698/e6ce3c02-a5eb-4f87-bd12-635d2578df81)
+
+
 ## Goals
 
 - [x] Implement the A* pathfinding algorithm.
