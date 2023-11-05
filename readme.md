@@ -24,11 +24,11 @@ This project implements the A* pathfinding algorithm, a popular pathfinding algo
    python main.py
    ```
 
-## Assumptions and modifications
+## Assumptions
 
-The original question suggested to use a map with only 0 & 1. However the question has been modified to give better view of the A* algorithm and my skill set for this implementation. I have created a set of new params where, integers like `0, 1, 2` are plain values ( weight of that node ) and `'x'` is used as an obstacle denotion.
-
-You can find the extra implementation in the other branch here: 
+The original question suggests to use a map with only 0 & 1.
+ - 0 is allowed node 
+ - 1 is blocked node
 
 ## Example Usage
 
